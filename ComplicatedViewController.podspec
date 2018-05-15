@@ -138,6 +138,6 @@ s.platform     = :ios, "9.0"
   # s.dependency "JSONKit", "~> 1.4"
 s.dependency "Moya"
 s.dependency "IGListKit"
-# s.dependency "Kingfisher"
+s.dependency "Kingfisher"
 s.swift_version = "4.1"
 end
