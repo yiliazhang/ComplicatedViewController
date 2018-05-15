@@ -44,7 +44,7 @@ target 'ComplicatedViewController' do
   pods
 end
 
-xcodeproj 'ComplicatedViewController_Demo/ComplicatedViewController_Demo'
-target 'ComplicatedViewController_Demo' do
-    pods
-end
+#xcodeproj 'ComplicatedViewController_Demo/ComplicatedViewController_Demo'
+#target 'ComplicatedViewController_Demo' do
+#    pods
+#end

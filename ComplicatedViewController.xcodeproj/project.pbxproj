@@ -14,6 +14,7 @@
 		181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE5F20A9E604008CB0BB /* CollectionManager.swift */; };
 		181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6420A9E604008CB0BB /* CollectionItem.swift */; };
 		181DDE7620A9E604008CB0BB /* ComplicatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */; };
+		1849B82C20AAB3F2000496D4 /* RowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849B82B20AAB3F2000496D4 /* RowSectionController.swift */; };
 		1C98F2956501913CD63906CC /* Pods_ComplicatedViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9158FA558E308F50EF02076C /* Pods_ComplicatedViewController.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		181DDE5F20A9E604008CB0BB /* CollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionManager.swift; sourceTree = "<group>"; };
 		181DDE6420A9E604008CB0BB /* CollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
 		181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicatedViewController.swift; sourceTree = "<group>"; };
+		1849B82B20AAB3F2000496D4 /* RowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSectionController.swift; sourceTree = "<group>"; };
 		3AC643133C395F0CCCDDF702 /* Pods-ComplicatedViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplicatedViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComplicatedViewController/Pods-ComplicatedViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		7D5DAB6E1FF21A8719E44692 /* Pods-ComplicatedViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplicatedViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComplicatedViewController/Pods-ComplicatedViewController.release.xcconfig"; sourceTree = "<group>"; };
 		9158FA558E308F50EF02076C /* Pods_ComplicatedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComplicatedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		181DDE5B20A9E604008CB0BB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1849B82B20AAB3F2000496D4 /* RowSectionController.swift */,
 				181DDE6420A9E604008CB0BB /* CollectionItem.swift */,
 				181DDE5C20A9E604008CB0BB /* Statusable.swift */,
 				181DDE5D20A9E604008CB0BB /* ManagerCenter.swift */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181DDE6B20A9E604008CB0BB /* ManagerCenter.swift in Sources */,
+				1849B82C20AAB3F2000496D4 /* RowSectionController.swift in Sources */,
 				181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */,
 				181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */,
 				181DDE6C20A9E604008CB0BB /* ListManager.swift in Sources */,
