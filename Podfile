@@ -39,11 +39,12 @@ pod 'SwiftyBeaver'
 #pod 'BaiduMapKit'
 pod 'DWURecyclingAlert'
 end
-#target 'ComplicatedViewController_Demo' do
-#  pods
-#end
+
+target 'ComplicatedViewController' do
+  pods
+end
 
 xcodeproj 'ComplicatedViewController_Demo/ComplicatedViewController_Demo'
-target 'ComplicatedViewController_Demo', :exclusive => true do
-  pod 'ComplicatedViewController', :path => './'
+target 'ComplicatedViewController_Demo' do
+    pods
 end
