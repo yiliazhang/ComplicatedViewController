@@ -12,14 +12,7 @@
 		181DDE6B20A9E604008CB0BB /* ManagerCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE5D20A9E604008CB0BB /* ManagerCenter.swift */; };
 		181DDE6C20A9E604008CB0BB /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE5E20A9E604008CB0BB /* ListManager.swift */; };
 		181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE5F20A9E604008CB0BB /* CollectionManager.swift */; };
-		181DDE6E20A9E604008CB0BB /* RowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6120A9E604008CB0BB /* RowSectionController.swift */; };
-		181DDE6F20A9E604008CB0BB /* HorizontalSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6220A9E604008CB0BB /* HorizontalSectionController.swift */; };
-		181DDE7020A9E604008CB0BB /* DisplaySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6320A9E604008CB0BB /* DisplaySectionController.swift */; };
 		181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6420A9E604008CB0BB /* CollectionItem.swift */; };
-		181DDE7220A9E604008CB0BB /* LabelSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6520A9E604008CB0BB /* LabelSectionController.swift */; };
-		181DDE7320A9E604008CB0BB /* ImageSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6620A9E604008CB0BB /* ImageSectionController.swift */; };
-		181DDE7420A9E604008CB0BB /* GridSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6720A9E604008CB0BB /* GridSectionController.swift */; };
-		181DDE7520A9E604008CB0BB /* EmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6820A9E604008CB0BB /* EmbeddedCollectionViewCell.swift */; };
 		181DDE7620A9E604008CB0BB /* ComplicatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,14 +24,7 @@
 		181DDE5D20A9E604008CB0BB /* ManagerCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerCenter.swift; sourceTree = "<group>"; };
 		181DDE5E20A9E604008CB0BB /* ListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
 		181DDE5F20A9E604008CB0BB /* CollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionManager.swift; sourceTree = "<group>"; };
-		181DDE6120A9E604008CB0BB /* RowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSectionController.swift; sourceTree = "<group>"; };
-		181DDE6220A9E604008CB0BB /* HorizontalSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalSectionController.swift; sourceTree = "<group>"; };
-		181DDE6320A9E604008CB0BB /* DisplaySectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySectionController.swift; sourceTree = "<group>"; };
 		181DDE6420A9E604008CB0BB /* CollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
-		181DDE6520A9E604008CB0BB /* LabelSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSectionController.swift; sourceTree = "<group>"; };
-		181DDE6620A9E604008CB0BB /* ImageSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSectionController.swift; sourceTree = "<group>"; };
-		181DDE6720A9E604008CB0BB /* GridSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridSectionController.swift; sourceTree = "<group>"; };
-		181DDE6820A9E604008CB0BB /* EmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
 		181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicatedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +60,6 @@
 			children = (
 				18CCF35420AA91D70083DBCF /* Core */,
 				181DDE5B20A9E604008CB0BB /* Helpers */,
-				181DDE6020A9E604008CB0BB /* SectionControllers */,
 				181DDE5320A9E5E6008CB0BB /* ComplicatedViewController.h */,
 				181DDE5420A9E5E6008CB0BB /* Info.plist */,
 			);
@@ -84,27 +69,13 @@
 		181DDE5B20A9E604008CB0BB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				181DDE6420A9E604008CB0BB /* CollectionItem.swift */,
 				181DDE5C20A9E604008CB0BB /* Statusable.swift */,
 				181DDE5D20A9E604008CB0BB /* ManagerCenter.swift */,
 				181DDE5E20A9E604008CB0BB /* ListManager.swift */,
 				181DDE5F20A9E604008CB0BB /* CollectionManager.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		181DDE6020A9E604008CB0BB /* SectionControllers */ = {
-			isa = PBXGroup;
-			children = (
-				181DDE6120A9E604008CB0BB /* RowSectionController.swift */,
-				181DDE6220A9E604008CB0BB /* HorizontalSectionController.swift */,
-				181DDE6320A9E604008CB0BB /* DisplaySectionController.swift */,
-				181DDE6420A9E604008CB0BB /* CollectionItem.swift */,
-				181DDE6520A9E604008CB0BB /* LabelSectionController.swift */,
-				181DDE6620A9E604008CB0BB /* ImageSectionController.swift */,
-				181DDE6720A9E604008CB0BB /* GridSectionController.swift */,
-				181DDE6820A9E604008CB0BB /* EmbeddedCollectionViewCell.swift */,
-			);
-			path = SectionControllers;
 			sourceTree = "<group>";
 		};
 		18CCF35420AA91D70083DBCF /* Core */ = {
@@ -194,19 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181DDE7520A9E604008CB0BB /* EmbeddedCollectionViewCell.swift in Sources */,
 				181DDE6B20A9E604008CB0BB /* ManagerCenter.swift in Sources */,
-				181DDE7320A9E604008CB0BB /* ImageSectionController.swift in Sources */,
-				181DDE6E20A9E604008CB0BB /* RowSectionController.swift in Sources */,
 				181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */,
 				181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */,
-				181DDE7020A9E604008CB0BB /* DisplaySectionController.swift in Sources */,
 				181DDE6C20A9E604008CB0BB /* ListManager.swift in Sources */,
-				181DDE7420A9E604008CB0BB /* GridSectionController.swift in Sources */,
 				181DDE7620A9E604008CB0BB /* ComplicatedViewController.swift in Sources */,
 				181DDE6A20A9E604008CB0BB /* Statusable.swift in Sources */,
-				181DDE6F20A9E604008CB0BB /* HorizontalSectionController.swift in Sources */,
-				181DDE7220A9E604008CB0BB /* LabelSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

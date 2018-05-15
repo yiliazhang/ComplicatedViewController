@@ -22,6 +22,13 @@
 		18CCF2DC20AA74FD0083DBCF /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF2D220AA74FD0083DBCF /* HomeAPI.swift */; };
 		18CCF2DD20AA74FD0083DBCF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF2D320AA74FD0083DBCF /* DetailViewController.swift */; };
 		18CCF2DE20AA74FD0083DBCF /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF2D420AA74FD0083DBCF /* DemoViewController.swift */; };
+		18CCF35D20AA9B2F0083DBCF /* RowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35620AA9B2F0083DBCF /* RowSectionController.swift */; };
+		18CCF35E20AA9B2F0083DBCF /* HorizontalSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35720AA9B2F0083DBCF /* HorizontalSectionController.swift */; };
+		18CCF35F20AA9B2F0083DBCF /* DisplaySectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35820AA9B2F0083DBCF /* DisplaySectionController.swift */; };
+		18CCF36020AA9B2F0083DBCF /* LabelSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35920AA9B2F0083DBCF /* LabelSectionController.swift */; };
+		18CCF36120AA9B2F0083DBCF /* ImageSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35A20AA9B2F0083DBCF /* ImageSectionController.swift */; };
+		18CCF36220AA9B2F0083DBCF /* GridSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35B20AA9B2F0083DBCF /* GridSectionController.swift */; };
+		18CCF36320AA9B2F0083DBCF /* EmbeddedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCF35C20AA9B2F0083DBCF /* EmbeddedCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		18CCF2D220AA74FD0083DBCF /* HomeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
 		18CCF2D320AA74FD0083DBCF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		18CCF2D420AA74FD0083DBCF /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		18CCF35620AA9B2F0083DBCF /* RowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSectionController.swift; sourceTree = "<group>"; };
+		18CCF35720AA9B2F0083DBCF /* HorizontalSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalSectionController.swift; sourceTree = "<group>"; };
+		18CCF35820AA9B2F0083DBCF /* DisplaySectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySectionController.swift; sourceTree = "<group>"; };
+		18CCF35920AA9B2F0083DBCF /* LabelSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelSectionController.swift; sourceTree = "<group>"; };
+		18CCF35A20AA9B2F0083DBCF /* ImageSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSectionController.swift; sourceTree = "<group>"; };
+		18CCF35B20AA9B2F0083DBCF /* GridSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridSectionController.swift; sourceTree = "<group>"; };
+		18CCF35C20AA9B2F0083DBCF /* EmbeddedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		181DDE8220A9E635008CB0BB /* ComplicatedViewController_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				18CCF35520AA9B2F0083DBCF /* SectionControllers */,
 				18CCF2D120AA74FD0083DBCF /* API */,
 				18CCF2C820AA74FD0083DBCF /* Cells */,
 				18CCF2D420AA74FD0083DBCF /* DemoViewController.swift */,
@@ -116,6 +131,20 @@
 				18CCF2D220AA74FD0083DBCF /* HomeAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		18CCF35520AA9B2F0083DBCF /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CCF35620AA9B2F0083DBCF /* RowSectionController.swift */,
+				18CCF35720AA9B2F0083DBCF /* HorizontalSectionController.swift */,
+				18CCF35820AA9B2F0083DBCF /* DisplaySectionController.swift */,
+				18CCF35920AA9B2F0083DBCF /* LabelSectionController.swift */,
+				18CCF35A20AA9B2F0083DBCF /* ImageSectionController.swift */,
+				18CCF35B20AA9B2F0083DBCF /* GridSectionController.swift */,
+				18CCF35C20AA9B2F0083DBCF /* EmbeddedCollectionViewCell.swift */,
+			);
+			path = SectionControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,10 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCF36020AA9B2F0083DBCF /* LabelSectionController.swift in Sources */,
 				18CCF2DD20AA74FD0083DBCF /* DetailViewController.swift in Sources */,
+				18CCF35D20AA9B2F0083DBCF /* RowSectionController.swift in Sources */,
+				18CCF36220AA9B2F0083DBCF /* GridSectionController.swift in Sources */,
 				18CCF2D520AA74FD0083DBCF /* SpinnerCell.swift in Sources */,
 				18CCF2DB20AA74FD0083DBCF /* TextItem.swift in Sources */,
+				18CCF35F20AA9B2F0083DBCF /* DisplaySectionController.swift in Sources */,
 				18CCF2DE20AA74FD0083DBCF /* DemoViewController.swift in Sources */,
+				18CCF36320AA9B2F0083DBCF /* EmbeddedCollectionViewCell.swift in Sources */,
+				18CCF36120AA9B2F0083DBCF /* ImageSectionController.swift in Sources */,
 				18CCF2D620AA74FD0083DBCF /* CenterLabelCell.swift in Sources */,
 				181DDE8620A9E635008CB0BB /* ViewController.swift in Sources */,
 				18CCF2D720AA74FD0083DBCF /* LabelCell.swift in Sources */,
@@ -201,6 +236,7 @@
 				18CCF2DC20AA74FD0083DBCF /* HomeAPI.swift in Sources */,
 				18CCF2DA20AA74FD0083DBCF /* GridItem.swift in Sources */,
 				18CCF2D820AA74FD0083DBCF /* GridCell.swift in Sources */,
+				18CCF35E20AA9B2F0083DBCF /* HorizontalSectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

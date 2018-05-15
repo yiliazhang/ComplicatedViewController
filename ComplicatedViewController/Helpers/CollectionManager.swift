@@ -14,6 +14,7 @@ protocol TransformToListDiffable {
     func models(_ fromResponse: Moya.Response, targetType: TargetType) -> [ListDiffable]
     func model(_ fromResponse: Moya.Response, targetType: TargetType) -> ListDiffable
 }
+
 let provider = MoyaProvider<MultiTarget>(plugins: [NetworkLoggerPlugin(verbose: true)])
 // MARK: - CollectionManager
 

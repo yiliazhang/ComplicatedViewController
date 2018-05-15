@@ -16,28 +16,19 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ComplicatedViewController"
-  s.version      = "1.0"
-  s.summary      = "创建复杂的瀑布流布局"
+  s.version      = "1.0.0"
+  s.summary      = "ComplicatedViewController"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-   s.description = %{
-    Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
-  Masonry has its own layout DSL which provides a chainable way of describing your
-  NSLayoutConstraints which results in layout code which is more concise and readable.
-    Masonry supports iOS.
-  }
+  s.description  = <<-DESC
+  一个复杂界面的简单实现工具
+                   DESC
 
- pch_AF = <<-EOS
-    #ifndef TARGET_OS_IOS
-        #define TARGET_OS_IOS TARGET_OS_IPHONE
-    #endif
-  EOS
-
-  s.homepage     = "https://github.com/yiliazhang/ComplicatedUIAndMutiRequestDemo"
+  s.homepage     = "https://github.com/yiliazhang/ComplicatedViewController.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -72,10 +63,11 @@ Pod::Spec.new do |s|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
-
+s.platform     = :ios, "9.0"
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
+  s.ios.deployment_target = "9.0"
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
@@ -89,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yiliazhang/ComplicatedUIAndMutiRequestDemo.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yiliazhang/ComplicatedViewController.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -100,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #s.source_files  = "ComplicatedViewController", "ComplicatedViewController/*.swift"
+  s.source_files  = "ComplicatedViewController/**/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -126,8 +118,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.ios.frameworks = 'Foundation', 'UIKit'
-
+  s.ios.frameworks = 'UIKit', 'Foundation'
+  # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -143,10 +135,9 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-
-  s.ios.deployment_target = '9.0' # minimum SDK with autolayout
-  s.dependency "Moya"
-  s.dependency "IGListKit"
-  s.swift_version = "4.0"
-
+  # s.dependency "JSONKit", "~> 1.4"
+s.dependency "Moya"
+s.dependency "IGListKit"
+# s.dependency "Kingfisher"
+s.swift_version = "4.1"
 end
