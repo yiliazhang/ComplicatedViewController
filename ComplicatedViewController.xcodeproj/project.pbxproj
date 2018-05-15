@@ -14,6 +14,7 @@
 		181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE5F20A9E604008CB0BB /* CollectionManager.swift */; };
 		181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6420A9E604008CB0BB /* CollectionItem.swift */; };
 		181DDE7620A9E604008CB0BB /* ComplicatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */; };
+		18324C4920AAA0BD008501AA /* RowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18324C4820AAA0BD008501AA /* RowSectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		181DDE5F20A9E604008CB0BB /* CollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionManager.swift; sourceTree = "<group>"; };
 		181DDE6420A9E604008CB0BB /* CollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
 		181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicatedViewController.swift; sourceTree = "<group>"; };
+		18324C4820AAA0BD008501AA /* RowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowSectionController.swift; path = ComplicatedViewController_Demo/ComplicatedViewController_Demo/SectionControllers/RowSectionController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		18CCF35420AA91D70083DBCF /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				18324C4820AAA0BD008501AA /* RowSectionController.swift */,
 				181DDE6920A9E604008CB0BB /* ComplicatedViewController.swift */,
 			);
 			path = Core;
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181DDE6B20A9E604008CB0BB /* ManagerCenter.swift in Sources */,
+				18324C4920AAA0BD008501AA /* RowSectionController.swift in Sources */,
 				181DDE7120A9E604008CB0BB /* CollectionItem.swift in Sources */,
 				181DDE6D20A9E604008CB0BB /* CollectionManager.swift in Sources */,
 				181DDE6C20A9E604008CB0BB /* ListManager.swift in Sources */,

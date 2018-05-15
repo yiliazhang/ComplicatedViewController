@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ComplicatedViewController"
   s.version      = "1.0.0"
-  s.summary      = "ComplicatedViewController"
+  s.summary      = "ComplicatedViewController iOS ViewController in pure Swift"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   一个复杂界面的简单实现工具
                    DESC
 
-  s.homepage     = "https://github.com/yiliazhang/ComplicatedViewController.git"
+  s.homepage     = "https://github.com/yiliazhang/ComplicatedViewController"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -138,6 +138,6 @@ s.platform     = :ios, "9.0"
   # s.dependency "JSONKit", "~> 1.4"
 s.dependency "Moya"
 s.dependency "IGListKit"
-s.dependency "Kingfisher"
+# s.dependency "Kingfisher"
 s.swift_version = "4.1"
 end
