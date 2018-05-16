@@ -155,7 +155,8 @@ extension ListManager: ListAdapterDataSource {
         if let sectionController = myCollectionManager?.sectionController {
             return sectionController()
         } else {
-            return RowSectionController()
+//            return RowSectionController()
+            return ListSectionController()
         }
     }
 
