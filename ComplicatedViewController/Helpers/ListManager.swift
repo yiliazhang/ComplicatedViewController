@@ -8,13 +8,6 @@
 
 import UIKit
 import IGListKit
-
-
-
-
-
-
-
 class ListManager: NSObject {
     weak var adapter: ListAdapter?
 

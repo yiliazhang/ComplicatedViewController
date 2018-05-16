@@ -21,24 +21,39 @@ class DemoViewController: ComplicatedViewController {
     /// 如果需要增加请求，在 HomeAPI 中增加，
     func configData() {
         listManager.removeAll()
+
+        /// 已有数据模型
+        let cycleScrollView = CollectionManager("cycleScrollView", items: demoGridItems()) { () -> ListSectionController in
+            return self.gridSectionController()
+        }
+
+        /// 从网络获取数据
         let gridOne = CollectionManager("gridOne", request: Home.gridItem) { () -> ListSectionController in
             return self.gridSectionController()
         }
+
+        ///
         let textOne = CollectionManager("textOne", request: Home.text) { () -> ListSectionController in
             return self.textSectionController()
         }
+
+        ///
         let imageOne = CollectionManager("imageOne", request: Home.image) { () -> ListSectionController in
             return self.imageSectionController()
         }
+
+        ///
         let centerTextOne = CollectionManager("centerTextOne", request: Home.centerText) { () -> ListSectionController in
             return self.embeddedSectionController()
         }
 
+        ///
         let textTwo = CollectionManager("textTwo", request: Home.text, items: ["12345678900000" as ListDiffable]) { () -> ListSectionController in
             return self.textSectionController()
         }
 
-        listManager.register([gridOne, textOne, centerTextOne, imageOne, textTwo])
+        /// 注册相关项
+        listManager.register([cycleScrollView, gridOne, textOne, centerTextOne, imageOne, textTwo])
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,7 +62,6 @@ class DemoViewController: ComplicatedViewController {
     }
 
     // MARK: 私有方法
-
     private func textSectionController() -> RowSectionController {
         let sectionController = RowSectionController()
         sectionController.cellBlock = { (sectionController, item) in
@@ -158,4 +172,11 @@ class DemoViewController: ComplicatedViewController {
         return sectionController
     }
 
+}
+private func demoGridItems() -> [CollectionItem] {
+    let items = [GridItem(imageName: "icon_zsk", title: "\(arc4random()%999 + arc4random()%9999)"),
+                 GridItem(imageName: "icon_wghyw", title: "\(arc4random()%999 + arc4random()%9999)"),
+                 GridItem(imageName: "icon_daka", title: "\(arc4random()%999 + arc4random()%9999)"),
+                 GridItem(imageName: "icon_fjgl", title: "\(arc4random()%999 + arc4random()%9999)"),]
+    return [CollectionItem(items)]
 }
