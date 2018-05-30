@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ComplicatedViewController"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "ComplicatedViewController是 iOS 平台展现多模块的解决方案"
 
   # This description is used to generate tags and improve search results.
