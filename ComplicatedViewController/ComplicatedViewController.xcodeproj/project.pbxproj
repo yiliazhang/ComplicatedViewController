@@ -10,6 +10,12 @@
 		18BB302B20BD567C002621E5 /* ComplicatedViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB302120BD567C002621E5 /* ComplicatedViewController.framework */; };
 		18BB303020BD567C002621E5 /* ComplicatedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB302F20BD567C002621E5 /* ComplicatedViewControllerTests.swift */; };
 		18BB303220BD567C002621E5 /* ComplicatedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BB302420BD567C002621E5 /* ComplicatedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BB304320BE360D002621E5 /* CollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB303D20BE360D002621E5 /* CollectionManager.swift */; };
+		18BB304420BE360D002621E5 /* ComplicatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB303E20BE360D002621E5 /* ComplicatedViewController.swift */; };
+		18BB304520BE360D002621E5 /* ManagerCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB303F20BE360D002621E5 /* ManagerCenter.swift */; };
+		18BB304620BE360D002621E5 /* ListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB304020BE360D002621E5 /* ListManager.swift */; };
+		18BB304720BE360D002621E5 /* RowSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB304120BE360D002621E5 /* RowSectionController.swift */; };
+		18BB304820BE360D002621E5 /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB304220BE360D002621E5 /* CollectionItem.swift */; };
 		5385D1316B30CE8B3317E7A7 /* Pods_ComplicatedViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B3280536CA6E5EC10A0670 /* Pods_ComplicatedViewController.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +37,12 @@
 		18BB302A20BD567C002621E5 /* ComplicatedViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicatedViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BB302F20BD567C002621E5 /* ComplicatedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicatedViewControllerTests.swift; sourceTree = "<group>"; };
 		18BB303120BD567C002621E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BB303D20BE360D002621E5 /* CollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionManager.swift; sourceTree = "<group>"; };
+		18BB303E20BE360D002621E5 /* ComplicatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicatedViewController.swift; sourceTree = "<group>"; };
+		18BB303F20BE360D002621E5 /* ManagerCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerCenter.swift; sourceTree = "<group>"; };
+		18BB304020BE360D002621E5 /* ListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListManager.swift; sourceTree = "<group>"; };
+		18BB304120BE360D002621E5 /* RowSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSectionController.swift; sourceTree = "<group>"; };
+		18BB304220BE360D002621E5 /* CollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
 		3B7610CB456C0D566F481119 /* Pods-ComplicatedViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComplicatedViewController.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ComplicatedViewController/Pods-ComplicatedViewController.release.xcconfig"; sourceTree = "<group>"; };
 		82B3280536CA6E5EC10A0670 /* Pods_ComplicatedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComplicatedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +90,12 @@
 		18BB302320BD567C002621E5 /* ComplicatedViewController */ = {
 			isa = PBXGroup;
 			children = (
+				18BB304220BE360D002621E5 /* CollectionItem.swift */,
+				18BB303D20BE360D002621E5 /* CollectionManager.swift */,
+				18BB303E20BE360D002621E5 /* ComplicatedViewController.swift */,
+				18BB304020BE360D002621E5 /* ListManager.swift */,
+				18BB303F20BE360D002621E5 /* ManagerCenter.swift */,
+				18BB304120BE360D002621E5 /* RowSectionController.swift */,
 				18BB302420BD567C002621E5 /* ComplicatedViewController.h */,
 				18BB302520BD567C002621E5 /* Info.plist */,
 			);
@@ -173,6 +191,7 @@
 				TargetAttributes = {
 					18BB302020BD567C002621E5 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 					18BB302920BD567C002621E5 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -240,6 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BB304420BE360D002621E5 /* ComplicatedViewController.swift in Sources */,
+				18BB304720BE360D002621E5 /* RowSectionController.swift in Sources */,
+				18BB304820BE360D002621E5 /* CollectionItem.swift in Sources */,
+				18BB304320BE360D002621E5 /* CollectionManager.swift in Sources */,
+				18BB304520BE360D002621E5 /* ManagerCenter.swift in Sources */,
+				18BB304620BE360D002621E5 /* ListManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 07363BA504D71AE809D27EF0 /* Pods-ComplicatedViewController.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -404,6 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yilia.ComplicatedViewController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B7610CB456C0D566F481119 /* Pods-ComplicatedViewController.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -439,6 +467,7 @@
 		18BB303920BD567C002621E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 685DPV4URE;
 				INFOPLIST_FILE = ComplicatedViewControllerTests/Info.plist;
@@ -457,6 +486,7 @@
 		18BB303A20BD567C002621E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 685DPV4URE;
 				INFOPLIST_FILE = ComplicatedViewControllerTests/Info.plist;
